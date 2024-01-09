@@ -27,8 +27,7 @@ const MovieRow = ({ title, url }) => {
           onClick={() => {
             slide(-500);
           }}
-          size={40}
-          className="absolute left-2 bg- opacity-80 rounded-full z-10 text-gray-700 hidden group-hover:block cursor-pointer"
+          className="absolute left-4 top-12 bg-white size-8 opacity-80 rounded-full z-10 text-gray-700 hidden group-hover:block cursor-pointer sm:size-9"
         />
         <div
           id={`slider` + randomNum}
@@ -43,8 +42,7 @@ const MovieRow = ({ title, url }) => {
           onClick={() => {
             slide(500);
           }}
-          size={40}
-          className="absolute right-2 bg-white opacity-80 rounded-full z-10 hidden text-gray-700 group-hover:block cursor-pointer"
+          className="absolute right-2 top-12 bg-white size-8 opacity-80 rounded-full z-10 hidden text-gray-700 group-hover:block cursor-pointer sm:size-9 "
         />
       </div>
     </>
