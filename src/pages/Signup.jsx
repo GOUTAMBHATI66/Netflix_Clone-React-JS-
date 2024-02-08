@@ -62,7 +62,7 @@ const Signup = () => {
                   className="font-bold bg-red-700 py-3
                 my-6 rounded"
                 >
-                  Sing Up
+                  Sign Up
                 </button>
 
                 <div className="flex justify-between items-center text-gray-400">
